@@ -1,8 +1,6 @@
+# Aligner
 
-# Project Title
-
-A brief description of what this project does and who it's for
-
+Aligner is a general purpose sequence alignment tool for pairwise alignments.
 
 ## Run Locally
 
@@ -24,11 +22,9 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
-
 ## Usage/Examples
 
 ```bash
 
 
 ```
-
