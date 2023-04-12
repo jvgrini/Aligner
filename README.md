@@ -59,11 +59,11 @@ match score: default 3
 Positional arguments:
 ```bash
 -h, --help            show this help message and exit
-  -s, --save          save output
-  -n, --no_output     do not print the output in the terminal
-  -b45, --blosum45
-  -b50, --blosum50
-  -b62, --blosum62
-  -b80, --blosum80
-  -b90, --blosum90
+-s, --save            save output
+-n, --no_output       do not print the output in the terminal
+-b45, --blosum45
+-b50, --blosum50
+-b62, --blosum62
+-b80, --blosum80
+-b90, --blosum90
 ```
