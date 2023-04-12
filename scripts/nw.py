@@ -2,12 +2,12 @@ import numpy as np
 from Bio import SeqIO
 import blosum as bl
 
-#scores
+#Needleman-Wunch alignment with constant match/mismatch values
 
 
 def global_align(seq_file, m_score = 1, mm_score = -1, g_score = -2):
-    seq_1 = 'attcccgacaat'
-    seq_2 = 'atggcgcctat'
+    seq_1 = ''
+    seq_2 = ''
     seq_1_desc = ''
     seq_2_desc = ''
 

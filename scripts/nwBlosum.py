@@ -2,12 +2,12 @@ import numpy as np
 from Bio import SeqIO
 import blosum as bl
 
-#scores
+#Needleman-Wunsch alignment using the BLOSUM substitution matrix
 
 
 def global_align_blosum(seq_file, bMatrix = 62, g_score = -2):
-    seq_1 = 'attcccgacaat'
-    seq_2 = 'atggcgcctat'
+    seq_1 = ''
+    seq_2 = ''
     seq_1_desc = ''
     seq_2_desc = ''
 

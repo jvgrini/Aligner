@@ -2,11 +2,13 @@ import numpy as np
 from Bio import SeqIO
 import blosum as bl
 
+#Smith-Waterman alignment using the BLOSUM substitution matrix
+
 def local_align_blosum(seq_file, bMatrix = 62, g_score = -2):
 
     matrix = bl.BLOSUM(bMatrix)
-    seq_1 = 'attgcattagaag'
-    seq_2 = 'attggtttagccc'
+    seq_1 = ''
+    seq_2 = ''
     seq_1_desc = ''
     seq_2_desc = ''
 

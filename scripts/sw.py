@@ -1,10 +1,12 @@
 import numpy as np
 from Bio import SeqIO
 
+#Smith-Waterman alignment using constant match/mismatch values
+
 def local_align(seq_file, m_score = 2, mm_score = -1, g_score = -1):
 
-    seq_1 = 'attgcattagaag'
-    seq_2 = 'attggtttagccc'
+    seq_1 = ''
+    seq_2 = ''
     seq_1_desc = ''
     seq_2_desc = ''
 
