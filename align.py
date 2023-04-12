@@ -89,7 +89,7 @@ if b45 == False and b50 == False and b62 == False and b80 == False and b90 == Fa
                     f.close
                     row +=1
                 i+=1
-            print('Allignment successfull')
+            print('Alignment successfull')
             print('Output saved to file \'output.txt\'')
 
     elif method == 'local':
@@ -143,7 +143,7 @@ if b45 == False and b50 == False and b62 == False and b80 == False and b90 == Fa
                     f.close
                     row +=1
                 i+=1
-        print('Allignment successfull')
+        print('Alignment successfull')
         if store_results == True:
             print('Output saved to file \'output.txt\'')
     else:
@@ -208,7 +208,7 @@ else:
                     f.close
                     row +=1
                 i+=1
-            print('Allignment successfull')
+            print('Alignment successfull')
             print('Output saved to file \'output.txt\'')
 
     elif method == 'local':
@@ -263,7 +263,7 @@ else:
                     f.close
                     row +=1
                 i+=1
-        print('Allignment successfull')
+        print('Alignment successfull')
         if store_results == True:
             print('Output saved to file \'output.txt\'')
     else:
