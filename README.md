@@ -1,6 +1,6 @@
 # Aligner
 
-Aligner is a general purpose sequence alignment tool for pairwise alignments. Aligner takes a FASTA file containing two protein and nucleotide sequences and aligns them using either the Needleman-Wunsch or Smith-Waterman algorithm.
+Aligner is a general purpose sequence alignment tool for pairwise alignments. Aligner takes a FASTA file containing two protein or nucleotide sequences and aligns them using either the Needleman-Wunsch or Smith-Waterman algorithm.
 
 ## Run Locally
 
